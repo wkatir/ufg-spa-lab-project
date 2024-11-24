@@ -46,6 +46,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px 10%;
+  background-color: #F6F6F6;
 }
 
 .header_logo img {
@@ -676,3 +677,5 @@ header.sticky {
     line-height: 1.4;
   }
 }
+
+

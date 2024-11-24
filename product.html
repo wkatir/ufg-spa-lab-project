@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Japan Geek</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="./assets/css/modern-normalize.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/product.css">
+</head>
+
+<body>
+  <header class="header">
+    <a href="index.html" class="header_logo"><img src="./assets/image/japangeek.png" alt="Logo de la tienda"></a>
+    <ul class="header__navmenu">
+      <li class="navmenu__item">
+        <a href="index.html" class="navmenu__link">Inicio</a>
+      </li>
+      <li class="navmenu__item">
+        <a href="#trending" class="navmenu__link">Newsletter</a>
+      </li>
+    </ul>
+    <div class="nav-icon">
+      <a href="#"><i class='bx bx-search'></i></a>
+      <a href="#"><i class='bx bx-user'></i></a>
+      <a href="#"><i class='bx bx-cart'></i></a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
+  </header>
+
+  <section class="main-home-video">
+    <video class="background-video" autoplay muted loop>
+        <source src="https://res.cloudinary.com/drycov6o6/video/upload/v1732476769/japan/xapgd4o1598upufbpk4w.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</section>
+
+
+
+  <main class="container">
+    <div class="product-grid">
+      <!-- Product Image -->
+      <div class="product-image">
+        <img src="https://res.cloudinary.com/drycov6o6/image/upload/v1732407332/japan/Figures/oyuipcsxpnzy9a6hxqny.jpg"
+          alt="Tatsumaki Figure">
+      </div>
+      <!-- Product Details -->
+      <div class="product-details">
+        <h2>Tatsumaki (Tornado del Terror)</h2>
+        <p class="price">
+          10,890 JPY <del>21,780 JPY</del>
+        </p>
+        <div class="actions">
+          <button class="btn">Añadir al Carrito</button>
+          <button class="btn">Añadir a la Lista de Deseos</button>
+        </div>
+        <div class="details-list">
+          <h3>Detalles</h3>
+          <ul>
+            <li><strong>Fecha de Lanzamiento:</strong> Mar-2024</li>
+            <li><strong>Marca:</strong> Bellfine</li>
+            <li><strong>Escala:</strong> 1/7</li>
+            <li><strong>Material:</strong> PVC, ABS</li>
+            <li><strong>Altura:</strong> Aprox. 245mm</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quiénes Somos Section -->
+    <section class="about-us">
+      <h2>Quiénes somos</h2>
+      <p> En nuestra tienda, ofrecemos figuras de alta calidad basadas en los personajes más icónicos del mundo del
+        anime.
+        Cada figura está cuidadosamente elaborada para capturar la esencia de los personajes que amas.
+        Ya sea que seas un coleccionista experimentado o un fanático casual, aquí encontrarás productos que complementen
+        tu colección.
+        ¡Nos apasiona traer la mejor calidad y detalles en cada figura!</p>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+      <h2>Suscríbete a nuestro Newsletter</h2>
+      <p>Recibe las últimas novedades, ofertas especiales y nuevos lanzamientos directamente en tu correo electrónico.
+      </p>
+      <div class="newsletter-form-container">
+        <form class="newsletter-form">
+          <input type="text" name="name" placeholder="Ingresa tu nombre" required>
+          <input type="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+          <button type="submit" class="btn">Suscribirse</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- contact-section -->
+  <section class="contact">
+    <div class="contact-info">
+      <div class="first-info">
+        <img src="./assets/image/japangeek.png" alt="Image-Logo">
+        <p>San Salvador<br> El Salvador</p>
+        <p>9ª Calle Poniente</p>
+        <p>contacto@animefigures.com</p>
+        <div class="social-icon">
+          <a href="#"><i class='bx bxl-facebook'></i></a>
+          <a href="#"><i class='bx bxl-instagram'></i></a>
+          <a href="#"><i class='bx bxl-youtube'></i></a>
+          <a href="#"><i class='bx bxl-linkedin'></i></a>
+        </div>
+      </div>
+      <div class="second-info">
+        <h4>Soporte</h4>
+        <p>Contáctanos</p>
+        <p>Acerca de la tienda</p>
+        <p>Consulta nuestros productos</p>
+        <p>Devoluciones</p>
+        <p>Política de privacidad</p>
+      </div>
+      <div class="third-info">
+        <h4>Catálogo</h4>
+        <p>Figuras de anime</p>
+        <p>Ropa temática</p>
+        <p>Stickers</p>
+        <p>Accesorios</p>
+        <p>Ofertas especiales</p>
+      </div>
+      <div class="fourth-info">
+        <h4>Compañía</h4>
+        <p>Quiénes somos</p>
+        <p>Blog</p>
+        <p>Afiliados</p>
+        <p>Inicia sesión</p>
+      </div>
+      <div class="five">
+        <h4>Suscríbete</h4>
+        <p>Recibe actualizaciones, ofertas y mucho más</p>
+        <p>Únete a nuestra comunidad de amantes del anime. Sé el primero en enterarte de nuestras promociones y
+          nuevos lanzamientos. ¡No te lo pierdas!</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 Japan Geek. Todos los derechos reservados.</p>
+    <p>Diseñado con pasión por los fanáticos del anime y la cultura geek.</p>
+  </footer>
+
+
+  <script src="./assets/js/menu.js"></script>
+
+</body>
+
+</html>
